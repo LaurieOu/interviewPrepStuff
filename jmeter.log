@@ -1,0 +1,97 @@
+2018-06-18 20:23:52,661 INFO o.a.j.u.JMeterUtils: Setting Locale to en_US
+2018-06-18 20:23:52,700 INFO o.a.j.JMeter: Loading user properties from: /usr/local/Cellar/jmeter/3.2/libexec/bin/user.properties
+2018-06-18 20:23:52,731 INFO o.a.j.JMeter: Loading system properties from: /usr/local/Cellar/jmeter/3.2/libexec/bin/system.properties
+2018-06-18 20:23:52,739 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2018-06-18 20:23:52,739 INFO o.a.j.JMeter: Version 3.2 r1790748
+2018-06-18 20:23:52,739 INFO o.a.j.JMeter: java.version=1.8.0_121
+2018-06-18 20:23:52,739 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2018-06-18 20:23:52,739 INFO o.a.j.JMeter: os.name=Mac OS X
+2018-06-18 20:23:52,740 INFO o.a.j.JMeter: os.arch=x86_64
+2018-06-18 20:23:52,740 INFO o.a.j.JMeter: os.version=10.13.3
+2018-06-18 20:23:52,740 INFO o.a.j.JMeter: file.encoding=UTF-8
+2018-06-18 20:23:52,740 INFO o.a.j.JMeter: Max memory     =536870912
+2018-06-18 20:23:52,740 INFO o.a.j.JMeter: Available Processors =8
+2018-06-18 20:23:52,746 INFO o.a.j.JMeter: Default Locale=English (United States)
+2018-06-18 20:23:52,747 INFO o.a.j.JMeter: JMeter  Locale=English (United States)
+2018-06-18 20:23:52,747 INFO o.a.j.JMeter: JMeterHome=/usr/local/Cellar/jmeter/3.2/libexec
+2018-06-18 20:23:52,747 INFO o.a.j.JMeter: user.dir  =/Users/lou/Desktop/stuff
+2018-06-18 20:23:52,747 INFO o.a.j.JMeter: PWD       =/Users/lou/Desktop/stuff
+2018-06-18 20:23:52,749 INFO o.a.j.JMeter: IP: 192.168.0.11 Name: lou00m FullName: 192.168.0.11
+2018-06-18 20:23:56,483 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System]
+2018-06-18 20:23:56,488 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2018-06-18 20:23:57,185 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2018-06-18 20:23:57,185 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2018-06-18 20:23:58,038 INFO k.a.j.JMeterPluginsUtils: JMeter-Plugins.org v.1.4.0
+2018-06-18 20:23:58,457 WARN o.a.j.g.u.MenuFactory: Configuration error, probably corrupt or missing third party library(jar) ? Could not create class: kg.apc.jmeter.reporters.LoadosophiaUploaderGui. java.lang.NoClassDefFoundError: org/apache/commons/httpclient/methods/multipart/PartSource
+java.lang.NoClassDefFoundError: org/apache/commons/httpclient/methods/multipart/PartSource
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.init(LoadosophiaUploaderGui.java:114) ~[JMeterPlugins-Standard.jar:?]
+	at kg.apc.jmeter.reporters.LoadosophiaUploaderGui.<init>(LoadosophiaUploaderGui.java:28) ~[JMeterPlugins-Standard.jar:?]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:1.8.0_121]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:1.8.0_121]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:1.8.0_121]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423) ~[?:1.8.0_121]
+	at java.lang.Class.newInstance(Class.java:442) ~[?:1.8.0_121]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:505) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:169) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.control.gui.WorkBenchGui.createPopupMenu(WorkBenchGui.java:119) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:156) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:74) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:59) ~[ApacheJMeter_core.jar:3.2 r1790748]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:311) [?:1.8.0_121]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:756) [?:1.8.0_121]
+	at java.awt.EventQueue.access$500(EventQueue.java:97) [?:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:709) [?:1.8.0_121]
+	at java.awt.EventQueue$3.run(EventQueue.java:703) [?:1.8.0_121]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:1.8.0_121]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:80) [?:1.8.0_121]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:726) [?:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:201) [?:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:116) [?:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:105) [?:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:1.8.0_121]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:93) [?:1.8.0_121]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:82) [?:1.8.0_121]
+Caused by: java.lang.ClassNotFoundException: org.apache.commons.httpclient.methods.multipart.PartSource
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381) ~[?:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424) ~[?:1.8.0_121]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357) ~[?:1.8.0_121]
+	... 28 more
+2018-06-18 20:23:58,814 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.assertions.BSFAssertion
+2018-06-18 20:23:58,886 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.extractor.BSFPostProcessor
+2018-06-18 20:23:58,903 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.modifiers.BSFPreProcessor
+2018-06-18 20:23:58,919 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-06-18 20:23:58,919 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-06-18 20:23:58,919 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-06-18 20:23:58,920 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2018-06-18 20:23:58,920 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2018-06-18 20:23:58,920 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2018-06-18 20:23:59,760 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2018-06-18 20:23:59,761 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /usr/local/Cellar/jmeter/3.2/libexec/bin/proxyserver.jks
+2018-06-18 20:23:59,880 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler
+2018-06-18 20:23:59,906 INFO o.a.j.s.FileServer: Default base='/Users/lou/Desktop/stuff'
+2018-06-18 20:23:59,957 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2018-06-18 20:23:59,957 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler
+2018-06-18 20:24:00,054 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer
+2018-06-18 20:24:00,071 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.visualizers.BSFListener
+2018-06-18 20:24:00,172 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2018-06-18 20:24:00,172 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2018-06-18 20:24:00,172 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2018-06-18 20:24:00,172 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2018-06-18 20:35:49,110 INFO o.a.j.g.a.Load: Loading file: /Users/lou/Desktop/phoenix/phoenix-web/PerformanceTests/phx-dynamic-template-thread-groups.jmx
+2018-06-18 20:35:49,110 INFO o.a.j.s.FileServer: Set new base='/Users/lou/Desktop/phoenix/phoenix-web/PerformanceTests'
+2018-06-18 20:35:49,203 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2018-06-18 20:35:49,243 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2018-06-18 20:35:49,244 INFO o.a.j.s.SaveService: Using SaveService properties version 3.2
+2018-06-18 20:35:49,247 INFO o.a.j.s.SaveService: Loading file: /Users/lou/Desktop/phoenix/phoenix-web/PerformanceTests/phx-dynamic-template-thread-groups.jmx
+2018-06-18 20:35:49,274 INFO o.a.j.p.h.c.CookieManager: Settings: Delete null: true Check: true Allow variable: true Save: false Prefix: COOKIE_
+2018-06-18 20:35:49,289 INFO o.a.j.p.h.c.CacheManager: Will only cache the following methods: [GET]
+2018-06-18 20:35:49,595 INFO o.a.j.s.FileServer: Set new base='/Users/lou/Desktop/phoenix/phoenix-web/PerformanceTests'
+2018-06-18 20:36:24,047 INFO o.a.j.g.a.Load: Loading file: /Users/lou/Desktop/phoenix/phoenix-web/PerformanceTests/phx-dynamic-template-thread-groups.jmx
+2018-06-18 20:36:24,047 INFO o.a.j.s.FileServer: Set new base='/Users/lou/Desktop/phoenix/phoenix-web/PerformanceTests'
+2018-06-18 20:36:24,047 INFO o.a.j.s.SaveService: Loading file: /Users/lou/Desktop/phoenix/phoenix-web/PerformanceTests/phx-dynamic-template-thread-groups.jmx
+2018-06-18 20:36:24,162 INFO o.a.j.s.FileServer: Set new base='/Users/lou/Desktop/phoenix/phoenix-web/PerformanceTests'
+2018-06-18 21:13:16,065 INFO o.a.j.g.a.Load: Loading file: /Users/lou/Desktop/phoenix/phoenix-web/PerformanceTests/phxCommerceL1NoRMQ.jmx
+2018-06-18 21:13:16,067 INFO o.a.j.s.FileServer: Set new base='/Users/lou/Desktop/phoenix/phoenix-web/PerformanceTests'
+2018-06-18 21:13:16,067 INFO o.a.j.s.SaveService: Loading file: /Users/lou/Desktop/phoenix/phoenix-web/PerformanceTests/phxCommerceL1NoRMQ.jmx
+2018-06-18 21:13:16,188 INFO o.a.j.s.FileServer: Set new base='/Users/lou/Desktop/phoenix/phoenix-web/PerformanceTests'
